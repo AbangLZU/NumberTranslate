@@ -46,7 +46,7 @@ class NumberService(object):
         self.weishu = [1000000000000, 1000000000, 1000000, 1000]
 
         # set for keywords
-        self.addition_keywords = {'and', 'plus'}
+        self.addition_keywords = ['and', 'plus']
 
     def parse_number_less_than_1000(self, num):
         result = []

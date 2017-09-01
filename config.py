@@ -4,7 +4,7 @@ import sys
 
 import web
 
-env = os.environ.get("WEB_ENV", "development")
+env = os.environ.get("WEB_ENV", "production")
 print "Environment: %s" % env
 
 logging.basicConfig(filename='logs/%s.log' % env, level=logging.DEBUG)
